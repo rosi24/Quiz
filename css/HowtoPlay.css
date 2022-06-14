@@ -10,6 +10,7 @@ body {
   margin: 0 auto;
   margin-bottom: 0px;
   padding: 0;
+  background-color:;
   /* font-size: 10px; */
 }
 
@@ -29,15 +30,15 @@ h1 {
 .container2 {
   text-align: center;
   width: 100vw;
-  height: 97vh;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   max-width: 80rem;
   margin: 0 auto;
   padding: 5px; 
-  background: linear-gradient(90deg,
+  /* background: linear-gradient(90deg,
         rgb(18, 92, 255) 0%,
-        rgb(0, 102, 255) 100%);
+        rgb(0, 102, 255) 100%); */
 }
 
 .img {
@@ -50,7 +51,7 @@ h1 {
  font-family: Nova Square;
  font-size: 20px;
  padding-top: 10px;
- color: yellow;
+ color: black;
 }
 
 #button {
@@ -95,4 +96,8 @@ h1 {
       min-width: 40rem;
     }
 
-
+@media(min-width : 300px) and (max-width : 350px) {
+  .conatiner2ssss {
+    width: 90%;
+    height: 80vh;
+  }

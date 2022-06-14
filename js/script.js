@@ -181,11 +181,11 @@ const questions = [
     },
 
     {
-        question: "What country is known to have the best quality tap water ?",
-        optionA: "France",
-        optionB: "Laos",
-        optionC: "Finalnd",
-        optionD: "Switzerland",
+        question: "What is the capital city of Greece ?",
+        optionA: "Patmos",
+        optionB: "Crete",
+        optionC: "Kos",
+        optionD: "Athens",
         correctOption: "optionD"
     },
 
