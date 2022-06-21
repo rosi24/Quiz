@@ -6,13 +6,11 @@
   box-sizing: border-box; 
 }
 
-html,
-body {
+html, body {
   height: 100%;
 }
 
 body {
-  
   color: yellow;
 }
 
@@ -24,7 +22,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: black; */
+  background-color: black; 
   background: url('../assets/background_image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -311,6 +309,16 @@ input[type=radio]:checked~.option {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .main {
+    min-width: 10rem;
+  }
+
+  .game-quiz-container {
+    min-width: 20%;
+  }
+}
+
 .footer {
   text-align: center;
   color: black;
@@ -318,6 +326,7 @@ input[type=radio]:checked~.option {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+
 
 
 

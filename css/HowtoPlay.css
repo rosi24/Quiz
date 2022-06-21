@@ -10,16 +10,15 @@ body {
   margin: 0 auto;
   margin-bottom: 0px;
   padding: 0;
-  background-color:;
-  /* font-size: 10px; */
+  /* font-size: 10px;  */
 }
 
 h1 {
   font-family: Nova Square;
   align-items: center;
-  /* flex-direction: row; */
+  flex-direction: row; 
   font-size: 50px;
-  color: rgb(36, 32, 32);
+  color: yellow;
   margin-bottom: 20px;
   margin: 0 auto;
   width: 100%;
@@ -30,15 +29,15 @@ h1 {
 .container2 {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: 97vh;
   justify-content: center;
   align-items: center;
-  max-width: 80rem;
+  /* max-width: 80rem; */
   margin: 0 auto;
-  padding: 5px; 
-  /* background: linear-gradient(90deg,
+  padding: 5px;
+  background: linear-gradient(90deg,
         rgb(18, 92, 255) 0%,
-        rgb(0, 102, 255) 100%); */
+        rgb(0, 102, 255) 100%); 
 }
 
 .img {
@@ -48,10 +47,12 @@ h1 {
 }
 
 #howto {
- font-family: Nova Square;
- font-size: 20px;
- padding-top: 10px;
- color: black;
+  font-family: Nova Square;
+  font-size: 20px;
+  padding-top: 50px;
+  color: yellow;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #button {
@@ -60,24 +61,24 @@ h1 {
   /* font-size: 20px; */
   padding-top: 70px;
   width: 100px;
-  margin-top: 40px;
+  margin-top: 180px;
   margin-bottom: 0px;
   margin-left: 20px;
   text-decoration: none;
   color: yellow;
-  /* background: linear-gradient(90deg,
+  background: linear-gradient(90deg,
       rgb(18, 92, 255) 0%,
-      rgb(0, 102, 255) 100%); */
+      rgb(0, 102, 255) 100%); 
   border: 1px solid yellow;
   border-radius: 4px;
   padding: 14px 8px;
   cursor: pointer;
 }
 
-/* :hover {
+/* * :hover {
   background: #2196F3;
   color: white;
-} */
+}  */
 
 .footer {
   text-align: center;
@@ -89,15 +90,18 @@ h1 {
 @media screen and (max-width: 768px) {
   .choicecontainer {
     min-width: 40rem;
+}
+
+.btn {
+  min-width: 40rem;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .btn {
-      min-width: 40rem;
-    }
+@media (min-width : 300px) and (max-width : 350px) {
+      .container2 {
+        width: 90%;
+        height: 80vh;
+      }
 
-@media(min-width : 300px) and (max-width : 350px) {
-  .conatiner2ssss {
-    width: 90%;
-    height: 80vh;
+
   }

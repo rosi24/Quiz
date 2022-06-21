@@ -87,12 +87,9 @@ h2 {
   margin-top: 0px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .choicecontainer {
-    min-width: 40rem;
+    min-width: 30%;
   }
+}
 
-  @media screen and (max-width: 768px) {
-  .btn {
-    min-width: 40rem;
-  }
